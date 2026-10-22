@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vandyz-about.vercel.app/sitemap.xml
