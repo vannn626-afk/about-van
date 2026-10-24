@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="color-scheme" content="light">
   <title>Siapa Itu Vandyz? — Mohammad Sofandi | LEOVANDYZ</title>
-  <meta name="description" content="Kenali Vandyz, juga dikenal sebagai Leo Vandyz atau Mohammad Sofandi: kreator muda yang tertarik pada pemrograman, pengembangan website, aplikasi, dan teknologi digital.">
-  <meta name="keywords" content="Mohammad Sofandi, Vandyz, Leo Vandyz, LEOVANDYZ, siapa itu Vandyz, developer Indonesia">
+  <meta name="description" content="Kenali Vandyz, juga dikenal sebagai Leo Vandyz atau Mohammad Sofandi: kreator muda dan developer asal Sukagumiwang, Indramayu, Jawa Barat yang tertarik pada pemrograman dan teknologi digital.">
+  <meta name="keywords" content="Mohammad Sofandi, Vandyz, Leo Vandyz, LEOVANDYZ, siapa itu Vandyz, developer Indramayu, programmer Jawa Barat, Sukagumiwang, Vandyz Mobile Legends">
   <meta name="author" content="Mohammad Sofandi">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="theme-color" content="#FFE14D">
@@ -17,13 +17,13 @@
   <meta property="og:site_name" content="Vandyz">
   <meta property="og:locale" content="id_ID">
   <meta property="og:title" content="Siapa Itu Vandyz? — Mohammad Sofandi | LEOVANDYZ">
-  <meta property="og:description" content="Profil Vandyz (Leo Vandyz / Mohammad Sofandi), kreator muda yang tertarik pada pemrograman dan teknologi digital.">
+  <meta property="og:description" content="Profil Vandyz (Leo Vandyz / Mohammad Sofandi), kreator muda dan developer asal Indramayu, Jawa Barat.">
   <meta property="og:url" content="https://about-van.vercel.app/">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Siapa Itu Vandyz? — Mohammad Sofandi">
   <meta name="twitter:description" content="Kenali Vandyz / Leo Vandyz dan proyek digital LEOVANDYZ.">
 
-  <!-- Satu graph JSON-LD untuk menghubungkan website, halaman profil, dan identitas -->
+  <!-- Graph JSON-LD lengkap (Website, Profile, Person, dan FAQPage) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -52,13 +52,62 @@
         "name": "Mohammad Sofandi",
         "alternateName": ["Vandyz", "Leo Vandyz", "LEOVANDYZ"],
         "jobTitle": "Developer & Programmer",
-        "description": "Mohammad Sofandi, dikenal sebagai Vandyz atau Leo Vandyz, adalah kreator muda yang tertarik pada pemrograman, pengembangan website, aplikasi, dan teknologi digital.",
+        "description": "Mohammad Sofandi, dikenal sebagai Vandyz atau Leo Vandyz, adalah kreator muda dan developer asal Sukagumiwang, Indramayu, Jawa Barat yang tertarik pada pemrograman, pengembangan website, aplikasi, dan teknologi digital.",
         "url": "https://about-van.vercel.app/",
+        "knowsAbout": ["Web Development", "Programming", "Software Engineering", "Mobile Legends"],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Indramayu",
+          "addressRegion": "Jawa Barat",
+          "addressCountry": "ID"
+        },
+        "homeLocation": {
+          "@type": "Place",
+          "name": "Sukagumiwang, Indramayu, Jawa Barat"
+        },
         "sameAs": [
           "https://leovandyz.vercel.app/",
           "https://github.com/vannn626-afk",
           "https://linktr.ee/leovandyz",
           "https://dev.to/vannn626afk"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://about-van.vercel.app/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Siapa itu Vandyz?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Vandyz adalah nama panggung/kreatif dari Mohammad Sofandi, seorang developer dan programmer muda asal Sukagumiwang, Indramayu, Jawa Barat yang terfokus pada pengembangan web dan teknologi digital."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apa itu LEOVANDYZ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "LEOVANDYZ adalah identitas merek digital dan proyek portofolio utama yang dikembangkan oleh Mohammad Sofandi (Vandyz) untuk mempublikasikan karya dan eksperimen aplikasinya."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Siapa nama asli Vandyz?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nama asli Vandyz adalah Mohammad Sofandi, dikenal juga dengan sebutan Leo Vandyz."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah Vandyz main ML (Mobile Legends)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yap main, udah rank Immortal (Imo) btw."
+            }
+          }
         ]
       }
     ]
@@ -151,6 +200,14 @@
     dt, dd { min-width: 0; margin: 0; padding: 11px 14px; border-bottom: var(--border); }
     dt { background: var(--yellow); font-weight: 900; border-right: var(--border); }
     dt:last-of-type, dd:last-of-type { border-bottom: 0; }
+    
+    .faq-container { display: flex; flex-direction: column; gap: 16px; }
+    .faq-item {
+      padding: 20px; background: var(--paper); border: var(--border); box-shadow: var(--shadow);
+    }
+    .faq-item h3 { margin-bottom: 6px; color: var(--ink); }
+    .faq-item p { margin: 0; }
+
     .project {
       padding: clamp(22px, 5vw, 36px); background: var(--pink);
       border: var(--border); box-shadow: 10px 10px 0 var(--ink);
@@ -200,9 +257,9 @@
         <div class="tags" aria-label="Identitas">
           <span class="tag">Developer &amp; Programmer</span>
           <span class="tag">Kreator muda</span>
-          <span class="tag">Teknologi digital</span>
+          <span class="tag">Sukagumiwang, Indramayu</span>
         </div>
-        <p class="lead">Vandyz, dikenal juga sebagai <strong>Leo Vandyz</strong>, adalah nama kreatif dari <strong>Mohammad Sofandi</strong>. Ia tertarik pada pemrograman, pengembangan website, aplikasi, dan teknologi digital. Ia senang mengeksplorasi ide kreatif, mempelajari teknologi, dan mengubah gagasan menjadi proyek digital.</p>
+        <p class="lead">Vandyz, dikenal juga sebagai <strong>Leo Vandyz</strong>, adalah nama kreatif dari <strong>Mohammad Sofandi</strong>, seorang developer muda berbasis di Sukagumiwang, Indramayu, Jawa Barat. Ia tertarik pada pemrograman, pengembangan website, aplikasi, dan teknologi digital. Ia senang mengeksplorasi ide kreatif dan mengubah gagasan menjadi proyek digital.</p>
         <p>Melalui LEOVANDYZ, ia membangun identitas digital sekaligus mendokumentasikan karya dan perjalanan belajarnya di dunia teknologi.</p>
         <a class="btn" href="https://leovandyz.vercel.app/">Lihat proyek LEOVANDYZ ↗</a>
       </header>
@@ -213,6 +270,7 @@
           <dt>Nama panggilan</dt><dd>Vandyz / Leo Vandyz</dd>
           <dt>Nama</dt><dd>Mohammad Sofandi</dd>
           <dt>Bidang minat</dt><dd>Developer &amp; Programmer</dd>
+          <dt>Lokasi</dt><dd>Sukagumiwang, Indramayu, Jawa Barat, Indonesia</dd>
           <dt>Proyek utama</dt><dd><a href="https://leovandyz.vercel.app/">LEOVANDYZ</a></dd>
         </dl>
         <a class="btn github" href="https://github.com/vannn626-afk" target="_blank" rel="noopener noreferrer">🐙 Kunjungi GitHub</a>
@@ -244,6 +302,29 @@
         </div>
       </section>
 
+      <!-- Section FAQ -->
+      <section aria-labelledby="faq-title">
+        <h2 id="faq-title">Pertanyaan Umum (FAQ)</h2>
+        <div class="faq-container">
+          <article class="faq-item">
+            <h3>Siapa itu Vandyz?</h3>
+            <p>Vandyz adalah nama panggung/kreatif dari Mohammad Sofandi, seorang developer dan programmer muda asal Sukagumiwang, Indramayu, Jawa Barat yang terfokus pada pengembangan web dan teknologi digital.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Apa itu LEOVANDYZ?</h3>
+            <p>LEOVANDYZ adalah identitas merek digital dan proyek portofolio utama yang dikembangkan oleh Mohammad Sofandi (Vandyz) untuk mempublikasikan karya dan eksperimen aplikasinya.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Siapa nama asli Vandyz?</h3>
+            <p>Nama asli Vandyz adalah Mohammad Sofandi, dikenal juga dengan sebutan Leo Vandyz.</p>
+          </article>
+          <article class="faq-item">
+            <h3>Apakah Vandyz maen emel (Mobile Legends)?</h3>
+            <p>Yap maen, udh imo btw.</p>
+          </article>
+        </div>
+      </section>
+
       <section aria-labelledby="temukan">
         <h2 id="temukan">Temukan Vandyz di internet</h2>
         <div class="social-links">
@@ -261,7 +342,7 @@
     </main>
 
     <footer>
-      <p>© <span id="year">2026</span> Vandyz · Mohammad Sofandi</p>
+      <p>© <span id="year">2026</span> Vandyz · Mohammad Sofandi · Sukagumiwang, Indramayu</p>
       <p class="small">Dibuat sebagai halaman profil dan pusat tautan resmi.</p>
     </footer>
   </div>
